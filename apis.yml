@@ -1,4 +1,16 @@
 aid: weddington-way
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/weddington-way.png
 name: Weddington Way
 description: Weddington Way is a company surfaced as a portfolio company of battery-ventures and added
   to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -12,12 +24,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Defunct
+- Ecommerce
+- Bridesmaid
+- Fashion
+- VC Portfolio
 apis: []
+x-status: defunct
+x-status-note: 'Weddington Way (online bridesmaid-dress retailer, Battery Ventures
+  portfolio) was acquired by Gap Inc. in 2016 and wound down; as of 2026-07-21 the
+  domain weddingtonway.com issues a 301 redirect to www.adriannapapell.com (an unrelated
+  brand). No first-party developer portal, API, or documentation exists to enrich.'
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
